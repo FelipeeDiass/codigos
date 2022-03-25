@@ -1,0 +1,31 @@
+.header{
+    background-color: orange;
+    height: 500px;
+    width: 500px;
+}
+
+.navbar{
+    background-color: greenyellow;
+    height: 250px;
+    width: 250px;
+}
+
+.agora{
+    background-color: red;
+    font-family: monospace;
+    font-size: 25; 
+}
+
+.body{
+    background-color: red;
+    viewport-fit: 75;
+    height: 250px;
+    width: 600px;
+}
+
+
+
+.oi{
+background-color: blue;
+height: 75px;
+}
