@@ -1,0 +1,28 @@
+.teto{
+    background-color: rgb(255, 79, 255);
+    height: 250px;
+    display: flex;
+    
+}
+
+.corpo{
+
+
+    background-color: pink;
+height: max-content;
+    width: 2000px;
+    border: solid 20px red;
+}
+
+
+.final{
+
+background-color: greenyellow;
+height: 88%;
+width: 30%;
+
+
+
+}
+
+
