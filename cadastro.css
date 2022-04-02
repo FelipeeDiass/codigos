@@ -1,0 +1,108 @@
+.header{
+    color: #32b9cd;
+    border-bottom: 3px solid #32b9cd;
+    /* border: 3px solid yellow; */
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+   
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 600px;
+    align-items: center;
+    color: #E3b062;
+   
+}
+
+.agora{
+    font-weight: 1000;
+}
+
+.banner{
+
+height: 500px;
+background-image: url(imgs/bg-jelly-fish-para-home.png);
+background-size: cover;
+
+}
+.banner .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 0, 0);
+
+
+}
+.banner .container p{
+    width: 280px;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
+
+
+.banner span{
+    font-weight: bolder;
+    
+}
+li a{
+    text-decoration: none;
+    color: #E3b062;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+
+}
+input{
+    height: 30px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.btn{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     border: 0;
+     border-radius: 4px;
+     font-weight: bolder;
+     font-size: 18px;
+     padding: 0;
+     color: rgb(191, 255, 0);
+     background-color: #000000;
+     width: 120px;
+     align-self: center;
+
+
+}
+.banner .card{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f6ff00;
+    height: 490px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    border-radius: 101px;
+    border: 7px solid rgb(255, 255, 255);
+ 
+}
